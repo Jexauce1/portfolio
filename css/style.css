@@ -31,6 +31,10 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
+html,
+body {
+    overflow-x: hidden;
+}
 
 body {
   background: var(--bg);
@@ -536,6 +540,17 @@ section { position: relative; padding: 90px 0; }
 }
 @media (max-width: 960px) {
   .contacts-top { grid-template-columns: 1fr; }
+}
+@media (max-width: 586px) {
+  .contacts-top {
+    grid-template-columns: 1fr;
+  }
+  .contacts-top > p {
+    order: 1;
+  }
+  .contacts-top > .contact-card {
+    order: 2;
+  }
 }
 .contact-card {
   border: 1px solid var(--border);
