@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projets — Sam</title>
+<meta name="description" content="Liste des projets réalisés par Sam, développeur front-end.">
+<link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/images/logo.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="works">
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <svg class="logo-img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-label="Logo Sam — portfolio" data-i18n-alt="common.logoAlt"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1" opacity=".3"/></svg>
+      <span data-i18n="common.brand">Sam</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html#home"><span class="hash">#</span><span data-i18n="nav.home">Accueil</span></a>
+      <a href="works.html" class="active"><span class="hash">#</span><span data-i18n="nav.works">Projets</span></a>
+      <a href="about.html"><span class="hash">#</span><span data-i18n="nav.about">À propos</span></a>
+      <a href="contacts.html"><span class="hash">#</span><span data-i18n="nav.contacts">Contacts</span></a>
+    </nav>
+    <div class="lang-switch">
+      <button type="button" data-i18n-aria="common.langSwitch" aria-label="Changer de langue">
+        <span class="lang-current">FR</span>
+        <svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 1l5 5 5-5"/></svg>
+      </button>
+      <div class="lang-dropdown"><button type="button" data-lang="en">EN</button></div>
+    </div>
+    <button class="burger-btn" type="button" data-i18n-aria="common.openMenu" aria-label="Ouvrir le menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu">
+  <div class="mobile-menu-top">
+    <a href="index.html" class="logo">
+      <svg class="logo-img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-label="Logo Sam — portfolio" data-i18n-alt="common.logoAlt"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1" opacity=".3"/></svg>
+      <span data-i18n="common.brand">Sam</span>
+    </a>
+    <button class="mobile-menu-close" type="button" data-i18n-aria="common.closeMenu" aria-label="Fermer le menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <nav>
+    <a href="index.html#home"><span class="hash">#</span><span data-i18n="nav.home">Accueil</span></a>
+    <a href="works.html" class="active"><span class="hash">#</span><span data-i18n="nav.works">Projets</span></a>
+    <a href="about.html"><span class="hash">#</span><span data-i18n="nav.about">À propos</span></a>
+    <a href="contacts.html"><span class="hash">#</span><span data-i18n="nav.contacts">Contacts</span></a>
+  </nav>
+  <div class="lang-line" role="button" tabindex="0">FR ▾</div>
+</div>
+
+<main>
+  <aside class="side-rail">
+    <a href="https://discord.gg/6yXHcBBP" target="_blank" rel="noopener noreferrer" data-i18n-aria="common.discord" aria-label="Discord"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037 12.683 12.683 0 0 0-.608 1.25 18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg></a>
+    <a href="https://wa.me/22969213654" target="_blank" rel="noopener noreferrer" data-i18n-aria="common.whatsapp" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.435 9.884-9.881 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.89-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg></a>
+    <a href="mailto:dev.sxm.sxm@gmail.com" data-i18n-aria="common.email" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 7L22 6"/></svg></a>
+  </aside>
+
+  <div class="container page-title">
+    <h1 class="crumb"><span class="slash">/</span><span data-i18n="works.title">projets</span></h1>
+    <p class="sub" data-i18n="works.sub">Liste de mes projets</p>
+  </div>
+
+  <section id="complete-apps">
+    <div class="container">
+      <div class="section-eyebrow"><h2><span class="hash">#</span><span data-i18n="works.complete">applications complètes</span></h2><span class="rule"></span></div>
+
+      <div class="projects-grid" style="margin-bottom: 22px;">
+        <article class="project-card reveal">
+          <div class="project-thumb"><span><img src="assets/images/saffra.png" alt="Aperçu du projet Saffra" data-i18n-alt="alt.saffra"></span></div>
+          <div class="project-tags">HTML CSS JS React</div>
+          <div class="project-body">
+            <h3>Saffra</h3>
+            <p data-i18n="proj.saffra.desc">Site vitrine pour restaurant, avec réservation de table en ligne.</p>
+            <div class="project-actions">
+              <a class="btn btn-solid" href="https://restaurant-jx.netlify.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="common.live">Live</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb"><span><img src="assets/images/nova.png" alt="Aperçu du projet NOVA" data-i18n-alt="alt.nova"></span></div>
+          <div class="project-tags">HTML CSS JS React</div>
+          <div class="project-body">
+            <h3>NOVA</h3>
+            <p data-i18n="proj.nova.desc">Boutique de mode avec panier et commande directe via WhatsApp.</p>
+            <div class="project-actions">
+              <a class="btn btn-solid" href="https://boutique-five-psi.vercel.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="common.live">Live</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb"><span><img src="assets/images/food&party.png" alt="Aperçu du projet Food Party" data-i18n-alt="alt.foodparty"></span></div>
+          <div class="project-tags">HTML CSS JS React</div>
+          <div class="project-body">
+            <h3>Food Party</h3>
+            <p data-i18n="proj.foodparty.desc">Site de commande de burgers et desserts, avec panier intégré.</p>
+            <div class="project-actions">
+              <a class="btn btn-solid" href="https://food-party.netlify.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="common.live">Live</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-thumb"><span><img src="assets/images/sole.png" alt="Aperçu du projet SOLE." data-i18n-alt="alt.sole"></span></div>
+          <div class="project-tags">HTML CSS JS React</div>
+          <div class="project-body">
+            <h3>SOLE.</h3>
+            <p data-i18n="proj.sole.desc">Boutique de sneakers avec catalogue produits et panier d'achat.</p>
+            <div class="project-actions">
+              <a class="btn btn-solid" href="https://sole-store.netlify.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="common.live">Live</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb"><span><img src="assets/images/essence.png" alt="Aperçu du projet ESSENCE" data-i18n-alt="alt.essence"></span></div>
+          <div class="project-tags">HTML CSS JS React</div>
+          <div class="project-body">
+            <h3>ESSENCE</h3>
+            <p data-i18n="proj.essence.desc">Boutique de parfums avec catalogue produits et panier d'achat.</p>
+            <div class="project-actions">
+              <a class="btn btn-solid" href="https://essencesenteur.netlify.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="common.live">Live</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb"><span><img src="assets/images/golden&choc.png" alt="Aperçu du projet Golden Crêpes & ChocFruits" data-i18n-alt="alt.golden"></span></div>
+          <div class="project-tags">HTML CSS JS React</div>
+          <div class="project-body">
+            <h3>Golden Crêpes &amp; ChocFruits</h3>
+            <p data-i18n="proj.golden.desc">Site de commande de crêpes et de fruits chocolatés, avec panier.</p>
+            <div class="project-actions">
+              <a class="btn btn-solid" href="https://golden-choc.netlify.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="common.live">Live</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="small-projects">
+    <div class="container">
+      <div class="section-eyebrow"><h2><span class="hash">#</span><span data-i18n="works.small">petits projets</span></h2><span class="rule"></span></div>
+
+      <div class="projects-grid">
+        <article class="project-card small reveal">
+          <div class="project-thumb"><span><img src="assets/images/sofia&lune.png" alt="Aperçu du projet Sofia Lune" data-i18n-alt="alt.sofia"></span></div>
+          <div class="project-tags">HTML CSS JS React</div>
+          <div class="project-body">
+            <h3>Sofia Lune</h3>
+            <p data-i18n="proj.sofia.desc">Page link-in-bio pour une créatrice de contenu lifestyle.</p>
+            <div class="project-actions">
+              <a class="btn btn-solid" href="https://lyfestyle-two.vercel.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="common.live">Live</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card small reveal">
+          <div class="project-thumb"><span><img src="assets/images/mariedigital.png" alt="Aperçu du projet Marie Digital" data-i18n-alt="alt.marie"></span></div>
+          <div class="project-tags">HTML CSS JS React</div>
+          <div class="project-body">
+            <h3>Marie Digital</h3>
+            <p data-i18n="proj.marie.desc">Page link-in-bio pour une créatrice de contenu.</p>
+            <div class="project-actions">
+              <a class="btn btn-solid" href="https://my-links-delta-ten.vercel.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="common.live">Live</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card small reveal">
+          <div class="project-thumb"><span><img src="assets/images/Leonsilva.png" alt="Aperçu du projet Leon Silva" data-i18n-alt="alt.leon"></span></div>
+          <div class="project-tags">HTML CSS JS React</div>
+          <div class="project-body">
+            <h3>Leon Silva</h3>
+            <p data-i18n="proj.leon.desc">Page link-in-bio pour un artiste musicien.</p>
+            <div class="project-actions">
+              <a class="btn btn-solid" href="https://artist-green.vercel.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="common.live">Live</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card small reveal">
+          <div class="project-thumb"><span><img src="assets/images/noah.png" alt="Aperçu du projet Noah Lens" data-i18n-alt="alt.noah"></span></div>
+          <div class="project-tags">HTML CSS JS React</div>
+          <div class="project-body">
+            <h3>Noah Lens</h3>
+            <p data-i18n="proj.noah.desc">Portfolio / link-in-bio pour un photographe.</p>
+            <div class="project-actions">
+              <a class="btn btn-solid" href="https://photograph-tau.vercel.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="common.live">Live</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card small reveal">
+          <div class="project-thumb"><span><img src="assets/images/mebuy.png" alt="Aperçu du portfolio personnel" data-i18n-alt="alt.portfolio"></span></div>
+          <div class="project-tags">HTML CSS JS React</div>
+          <div class="project-body">
+            <h3>Portfolio</h3>
+            <p data-i18n="proj.portfolio.desc">Un portfolio personnel.</p>
+            <div class="project-actions">
+              <a class="btn btn-solid" href="https://photograph-git-main-jexauce1s-projects.vercel.app/" target="_blank" rel="noopener noreferrer"><span data-i18n="common.live">Live</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6-6 6 6 6M15 6l6 6-6 6"/></svg></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <svg class="logo-img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-label="Logo Sam — portfolio" data-i18n-alt="common.logoAlt"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1" opacity=".3"/></svg>
+          <span data-i18n="common.brand">Sam</span>
+        </a>
+        <div class="footer-contact-line"><span>dev.sxm.sxm@gmail.com</span></div>
+        <p data-i18n="common.role">Développeur front-end</p>
+      </div>
+      <div class="footer-media">
+        <h5 data-i18n="common.media">Médias</h5>
+        <div class="icons">
+          <a href="https://discord.gg/6yXHcBBP" target="_blank" rel="noopener noreferrer" data-i18n-aria="common.discord" aria-label="Discord"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037 12.683 12.683 0 0 0-.608 1.25 18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg></a>
+          <a href="https://wa.me/22969213654" target="_blank" rel="noopener noreferrer" data-i18n-aria="common.whatsapp" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.435 9.884-9.881 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.89-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg></a>
+          <a href="mailto:dev.sxm.sxm@gmail.com" data-i18n-aria="common.email" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 7L22 6"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom" data-i18n="common.copyright">© 2026.</div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
